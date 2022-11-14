@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+body{
+    background: #f9f9f9;
+}
+
+.col-4{
+    width: 33.33%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-8{
+    width: 66.67%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+.order{
+    margin: auto;
+    text-align: center;
+    margin: 50px 0 70px 0;
+    font: 1em sans-serif;
+}
+
+.adjust{
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px 0;
+    border: 0.3px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
+
+.flex{
+    display: flex;
+    gap: 5px;
+}
+
+.apm{
+    margin: 5px 0;
+    width: 100%;
+    padding-bottom: 100px;
+    border: 0.3px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
+
+.order span{
+    color: red;
+}
+
+.container{
+    margin: 0 8%;
+    padding: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.container .form{
+    padding-left: 40px;
+}
+
+.container button{
+    background: transparent;
+    color:red;
+    margin-top: 10px;
+    padding: 7px 15px;
+    border: 1.5px solid red;
+    border-radius: 8px;
+}
+
+.foot{
+    margin-top: 50px;
+    width: 100%;
+    background: black;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.foot a{
+    color: red;
+    border: 1px solid red;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.foot .last {
+    padding-top: 15px;
+}
+
+.foot .last strong{
+    color:#fff;
+    font-size: 20px;
+}
+
+.foot .last span{
+    color: red;
+}
